@@ -13,4 +13,3 @@ His research interests lie in
 
 News
 ======
-- **July, 2024** Started research under the supervision of [Prof. Hongyi Wen](https://whongyi.github.io) !
