@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>Blogs &amp; Notes | Ninghao (Alex) Lu</title>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐧</text></svg>"
+    >
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css"
+      integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg=="
+      crossorigin="anonymous"
+    >
+
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <body class="notes-page">
+    <header class="notes-header">
+      <p class="site-name"><a href="index.html">Ninghao (Alex) Lu</a></p>
+      <nav class="nav-links" aria-label="Main navigation">
+        | <a href="index.html">Home</a> |
+        <a href="index.html#publications">Publications</a> |
+        <a href="index.html#service">Service</a> |
+        <a href="blogs.html" aria-current="page">Blogs &amp; Notes</a> |
+        <a href="index.html#personal">Personal</a> |
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <h1 class="notes-heading">Blogs &amp; Notes</h1>
+
+      <section class="section note-group" aria-labelledby="policy-finetuning">
+        <p class="note-title" id="policy-finetuning">
+          <span class="note-tag">[Post-training: Robot Policy Fine-tuning]</span>
+          <a href="https://github.com/ninghaolu/notes/blob/main/post-training/policy-finetuning.md">Fine-tuning robot policies: decisions to make before training</a>
+        </p>
+        <p class="small">
+          A checklist covering action formats, normalization, temporal alignment, loss masking, and training budget.
+          Uses <a href="https://abc.bot/">ABC-130K</a> with
+          <a href="https://www.pi.website/blog/pi05">pi0.5</a>,
+          <a href="https://github.com/dreamzero0/dreamzero">DreamZero</a>, and
+          <a href="https://github.com/OpenWAM-Official/OpenWAM">OpenWAM-α</a> as running examples.
+        </p>
+      </section>
+
+      <section class="section note-group" aria-labelledby="video-distillation">
+        <p class="note-title" id="video-distillation">
+          <span class="note-tag">[Post-training: Video Model Distillation]</span>
+          <a href="https://github.com/ninghaolu/notes/blob/main/post-training/dmd.md">DMD training notes for video model distillation</a>
+        </p>
+        <p class="small">
+          An implementation walkthrough of DMD and <a href="https://self-forcing.github.io/">self-forcing</a>,
+          covering teacher and critic roles, the pseudo-MSE objective, gradient flow, and rolling KV caches.
+        </p>
+      </section>
+
+      <footer>
+        <p>Last updated: Oct 2026</p>
+      </footer>
+    </main>
+  </body>
+</html>
